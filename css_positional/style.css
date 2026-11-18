@@ -1,0 +1,39 @@
+
+
+.parent{
+    width: 700px;
+    height: 500px;
+    background-color: #007adf;
+    border: 5px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.child{
+    background-color: #00d08a;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+
+}
+
+.child:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.child:nth-child(3){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.child:nth-child(4){
+    position: absolute;
+    bottom: 0;
+   
+}

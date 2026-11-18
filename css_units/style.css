@@ -1,0 +1,19 @@
+
+
+
+.card{
+    width: 75%;
+    background-color: #00959f;
+    min-height: 300px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.img_card{
+    width: 50%;
+
+}
+
