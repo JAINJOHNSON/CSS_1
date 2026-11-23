@@ -1,0 +1,125 @@
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: whitesmoke; */
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+    
+}
+
+.grandparent1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+
+}
+
+.grandparent2{
+    height: 100%;
+    width: 30%;
+    /* background-color: green; */
+
+}
+
+.grandparent3{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+
+}
+
+
+
+
+.parent1{
+    width: 50%;
+    height: 20%;
+    background-color: aqua;
+    border: 2px solid black;
+
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.child{
+    background-color: #00d08a;
+    border: 2px solid black;
+    height: 30%;
+    width: 30%;
+
+}
+
+/* first section -------------------------------------------- */
+
+
+.child:nth-child(1){
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+
+.child:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    transform: translate(50%,-50%);
+}
+
+
+
+.child:nth-child(3){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    transform: translate(50%,50%);
+}
+
+.child:nth-child(4){
+    position: absolute;
+    bottom: 0;
+   
+    transform: translate(-50%,50%);
+}
+
+.child:nth-child(5){
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+   
+    transform: translate(50%,50%);
+    
+
+}
+
+
+
+/* first section end here ---------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
