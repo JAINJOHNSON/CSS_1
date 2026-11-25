@@ -1,5 +1,8 @@
 
-
+body{
+    height: 200vh;
+    width: 200vw;
+}
 
 
 .flex_container{
@@ -25,3 +28,4 @@
 
 
 }
+

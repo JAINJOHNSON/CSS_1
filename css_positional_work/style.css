@@ -7,6 +7,7 @@ body{
 
     display: flex;
     justify-content: space-evenly;
+   
 
 
     
@@ -41,6 +42,7 @@ body{
     height: 20%;
     background-color: aqua;
     border: 2px solid black;
+    box-shadow: 10px 10px 10px #00faff;
 
     position: relative;
 
@@ -51,8 +53,9 @@ body{
 }
 
 .child{
-    background-color: #00d08a;
+    background-color: #3effe4;
     border: 2px solid black;
+    box-shadow: 10px 10px 10px #71ffc4;
     height: 30%;
     width: 30%;
 

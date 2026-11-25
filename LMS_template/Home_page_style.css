@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+body{
+    height: 300vh;
+    width: 100vw;
+    background-color: white;
+    
+}
+
+.nav_bar_brand>span{
+    color: blue;
+}
+
+
+.container_fluid{
+    /* border: 2px solid black; */
+    border-bottom: 3px solid gainsboro;
+    
+
+}
+
+
+.container{
+    
+    width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    /* border: 2px solid black; */
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_item_right{
+    /* background-color: #c5fcef; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    width: 40%;
+
+
+
+}
+
+.nav_item_right>button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+
+    transition: transform 0.5s ease-in-out;    
+}
+
+.nav_item_right>button:hover{
+    background-color: #0066ff;
+    transform: translateY(-5px);
+    
+}
+
+.nav_item_right>a{
+    text-decoration: none;
+}
+
+.nav_item_right>a:hover{
+    text-decoration: underline;
+}
+
+/* banner  */
+
+.banner{
+    background-color: gainsboro;
+    height: 150px;
+
+    position: relative;
+
+    
+}
+
+.banner-item{
+
+    
+    /* background-color: aqua; */
+    margin-left: 10%;
+    height: 40%;
+    width: 500px;
+
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    
+
+
+}
+
+.banner-item>*{
+    margin: 0;
+
+    
+    
+
+}
+
+
+
+
