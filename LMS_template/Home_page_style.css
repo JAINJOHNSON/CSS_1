@@ -20,7 +20,7 @@ body{
 
 .container_fluid{
     /* border: 2px solid black; */
-    border-bottom: 3px solid gainsboro;
+    border-bottom: 3px solid #f3f9fa;
     
 
 }
@@ -82,7 +82,7 @@ body{
 /* banner  */
 
 .banner{
-    background-color: gainsboro;
+    background-color: #f3f9fa;
     height: 150px;
 
     position: relative;

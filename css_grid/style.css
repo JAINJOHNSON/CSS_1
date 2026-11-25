@@ -1,0 +1,27 @@
+
+body{
+    width: 100vw;
+    height: 300vh;
+    transform: translate(50px,50px);
+}
+
+.grid_container{
+
+    width: 75%;
+    height: 400px;
+    background-color: #ffe8eb;
+    /* padding: 10px; */
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    grid-gap: 10px;
+
+
+}
+
+.grid_item{
+    border: 3px solid aquamarine;
+
+}
