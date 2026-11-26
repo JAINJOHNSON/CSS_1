@@ -1,0 +1,123 @@
+
+
+body{
+
+    width: 200vh;
+    height: 300vh;
+    background-color: black;
+}
+
+
+.resume_container{
+    background-color: white;
+    height: 40%;
+    width: 55%;
+ 
+    transform: translate(50%,50%);
+
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: repeat(4,1fr);
+
+}
+
+.resume_items{
+    border: 5px solid pink;
+}
+/* -----------------------image box----------------------------------- */
+.resume_items:nth-child(1){
+    background-color: darkblue;
+    align-items: center;
+
+
+}
+.resume_items:nth-child(1) div{
+    
+    background-color: aqua;
+    align-items: center;
+
+
+
+}
+
+.resume_items:nth-child(1) div img{
+    width: 95%;
+    height: 95%;
+
+    border-radius: 50%;
+
+}
+/* ----------------Name Box 2 ------------------------------ */
+
+.resume_items:nth-child(2){
+    border: 5px solid black;
+}
+
+.resume_items:nth-child(2) form{
+    width: 95%;
+    
+   
+}
+
+
+/* -------------------Profile box 3--------------------------------- */
+.resume_items:nth-child(3){
+
+    grid-row: 2/5;
+
+}
+
+.resume_items:nth-child(3)>*{
+    margin: 0;
+}
+
+.profile{
+    background-color: gray;
+    height: 30%;
+}
+
+.contact{
+    background-color: rosybrown;
+    height: 30%;
+}
+
+
+.tech_skills{
+    background-color: yellow;
+    height: 30%;
+}
+.tech_skills caption{
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* ----------------Education ---------------------------- */
+
+.resume_items table{
+    width: 100%;
+}
+
+
+.resume_items caption{
+    background: darkblue;
+    color: white;
+}
+
+
+/*----------- work Experiance------------------------------- */
+
+.resume_items:nth-child(5) div{
+    background: darkblue;
+    color: white;    
+    text-align: center;
+}
+
+/*------------- Projects box--------------------------------------- */
+
+.resume_items:nth-child(6) div{
+    background: darkblue;
+    color: white;    
+    text-align: center;
+}
