@@ -22,18 +22,18 @@ body{
 }
 
 .resume_items{
-    border: 5px solid pink;
+    border: 5px solid white;
 }
 /* -----------------------image box----------------------------------- */
 .resume_items:nth-child(1){
-    background-color: darkblue;
+    /* background-color: darkblue; */
     align-items: center;
 
 
 }
 .resume_items:nth-child(1) div{
     
-    background-color: aqua;
+    /* background-color: aqua; */
     align-items: center;
 
 
@@ -50,7 +50,8 @@ body{
 /* ----------------Name Box 2 ------------------------------ */
 
 .resume_items:nth-child(2){
-    border: 5px solid black;
+    /* border: 5px solid black; */
+    
 }
 
 .resume_items:nth-child(2) form{
@@ -64,28 +65,37 @@ body{
 .resume_items:nth-child(3){
 
     grid-row: 2/5;
+    background-color: aliceblue;
 
 }
 
-.resume_items:nth-child(3)>*{
+.resume_items:nth-child(3) *{
     margin: 0;
 }
 
 .profile{
-    background-color: gray;
+    /* background-color: gray; */
     height: 30%;
 }
 
 .contact{
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     height: 30%;
 }
 
 
 .tech_skills{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 30%;
+
+
 }
+
+.tech_skills table{
+    width: 70%;
+}
+
+
 .tech_skills caption{
     background-color: blue;
     color: white;
