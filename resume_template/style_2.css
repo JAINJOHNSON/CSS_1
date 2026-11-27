@@ -1,0 +1,260 @@
+
+
+/* ---------------- BODY ---------------- */
+
+body {
+  
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    font-family: 'Times New Roman', serif;
+}
+
+
+/* ---------------- MAIN ---------------- */
+
+.resume_container {
+
+    background-color: white;
+    
+    width: 850px;
+    margin: 20px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 250px 1fr 1fr 1fr;
+
+    /* chatgpt start */
+
+    grid-template-areas:
+
+        "photo name"
+        "sidebar education"
+        "sidebar experience"
+        "sidebar projects";
+
+    gap: 10px;
+
+    /* chatgpt end */
+
+}
+
+
+/* ------------------------------- */
+
+.resume_items {
+
+    border: 2px solid pink;
+    padding: 10px;
+
+}
+
+
+/* ---------------- IMAGE---------------- */
+
+.photo {
+
+    grid-area: photo;
+    background-color: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo img {
+
+    width: 165px;
+    height: 165px;
+
+    border-radius: 50%;
+    object-fit: cover; 
+
+    
+
+}
+
+
+/* ---------------- NAME SECTION ---------------- */
+
+.name {
+
+    grid-area: name;
+
+    background-color: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name form {
+
+    width: 95%;
+
+}
+
+.name fieldset {
+
+    height: 100px;
+    border: 1px solid white;
+    color: white;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/* ---------------- SIDEBAR SECTION ---------------- */
+
+.sidebar {
+
+    grid-area: sidebar;
+
+    background-color: skyblue;
+    padding: 25px 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+
+
+
+
+/* ---------------- CONTACT SECTION ---------------- */
+
+.contact div {
+
+    margin-bottom: 12px;
+
+}
+
+
+
+
+/* ---------------- TECHNICAL SKILLS ---------------- */
+
+.tech_skills table {
+
+    width: 100%;
+
+}
+
+.tech_skills caption {
+
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+    padding: 8px;
+
+
+}
+
+.tech_skills ul {
+
+    padding-left: 20px;
+
+}
+
+.tech_skills li {
+
+    margin-bottom: 15px;
+}
+
+
+/* ---------------- SECTION TITLES ---------------- */
+
+.section_title {
+
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+
+    padding: 7px;
+
+   
+
+}
+
+
+/* ---------------- EDUCATION ---------------- */
+
+.education {
+
+    grid-area: education;
+
+}
+
+.education table {
+
+    width: 100%;
+
+}
+
+.education td {
+
+    padding: 5px;
+
+}
+
+
+/* ---------------- WORK EXPERIENCE ---------------- */
+
+.experience {
+
+    grid-area: experience;
+
+}
+
+.experience ul {
+
+    padding-left: 20px;
+
+}
+
+.experience li {
+
+    margin-bottom: 10px;
+
+}
+
+.experience p {
+
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+
+/* ---------------- PROJECTS ---------------- */
+
+.projects {
+
+    grid-area: projects;
+
+}
+
+.project_details {
+
+    padding: 5px;
+
+}
+
+.project_details p {
+
+    line-height: 1.5;
+
+}
+
